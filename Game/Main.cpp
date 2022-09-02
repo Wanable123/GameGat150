@@ -16,7 +16,7 @@ int main(){
 
 	nae::Engine::Instance().Register();
 
-	nae::g_renderer.CreateWindow("There is Game", 800, 600);
+	nae::g_renderer.CreateWindow("ThisTheGameOfAllTime", 800, 600);
 	nae::g_renderer.SetClearColor(nae::Color{ 10, 10, 10, 255 });
 
 	std::unique_ptr<TheGame> game = std::make_unique<TheGame>();
